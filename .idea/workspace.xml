@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc6ab4b1-bc96-4e16-a566-320f5274b895" name="Default" comment="new pos">
+    <list default="true" id="fc6ab4b1-bc96-4e16-a566-320f5274b895" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +21,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="233">
-                  <caret line="95" column="80" lean-forward="true" selection-start-line="95" selection-start-column="80" selection-end-line="95" selection-end-column="80" />
+                <state relative-caret-position="-496">
+                  <caret line="138" column="30" lean-forward="true" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
                   <folding>
                     <element signature="n#header#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -76,8 +74,8 @@
       <find>art-com</find>
       <find>author</find>
       <find>font-fa</find>
-      <find>time</find>
       <find>.side</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,8 +85,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ыенду.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -102,8 +100,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="51" />
+    <option name="x" value="-40" />
+    <option name="y" value="75" />
     <option name="width" value="1940" />
     <option name="height" value="881" />
   </component>
@@ -190,15 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531234233898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new commit">
+      <created>1531235523346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531235523346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32822000" />
+    <option name="totallyTimeSpent" value="33837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="51" width="1940" height="881" extended-state="0" />
-    <editor active="true" />
+    <frame x="-40" y="75" width="1940" height="881" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11070686" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -241,7 +245,8 @@
     <MESSAGE value="new page 1" />
     <MESSAGE value="new pos" />
     <MESSAGE value="new img" />
-    <option name="LAST_COMMIT_MESSAGE" value="new img" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ыенду.css">
@@ -289,13 +294,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ыенду.css" />
-    <entry file="file://$USER_HOME$/MDB-Gulp-Free/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -303,10 +301,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/MDB-Gulp-Free/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="95" column="80" lean-forward="true" selection-start-line="95" selection-start-column="80" selection-end-line="95" selection-end-column="80" />
+        <state relative-caret-position="-496">
+          <caret line="138" column="30" lean-forward="true" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
           <folding>
             <element signature="n#header#0;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
