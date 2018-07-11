@@ -577,3 +577,41 @@ a {
         width: 100%;
     }
 }
+
+/*modal*/
+
+.modal {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c4c4c4;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    background: #fafafa;
+    position: relative;
+    z-index: 105;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.no-scroll {
+    /*position: fixed;*/
+    margin-right: calc(-1 * (100vw - 100%));
+    /*margin-left: calc(100vw - 100%);*/
+    /*margin-right: 0;*/
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
