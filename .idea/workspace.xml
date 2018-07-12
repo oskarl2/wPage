@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc6ab4b1-bc96-4e16-a566-320f5274b895" name="Default" comment="new pos">
-      <change afterPath="$PROJECT_DIR$/img/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/css_sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ex.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/user-m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/user-w.png" afterDir="false" />
+    <list default="true" id="fc6ab4b1-bc96-4e16-a566-320f5274b895" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sep.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sep.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+            <state relative-caret-position="2583">
+              <caret line="181" column="31" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="560" column="14" lean-forward="true" selection-start-line="560" selection-start-column="14" selection-end-line="560" selection-end-column="14" />
+            <state relative-caret-position="102">
+              <caret line="130" column="1" lean-forward="true" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,6 +64,8 @@
       <find>#se</find>
       <find>#sear</find>
       <find>.conta</find>
+      <find>form</find>
+      <find>sear</find>
       <find>send</find>
     </findStrings>
   </component>
@@ -100,9 +90,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="341" />
-    <option name="y" value="292" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="352" />
+    <option name="y" value="197" />
     <option name="width" value="1048" />
     <option name="height" value="535" />
   </component>
@@ -119,11 +109,6 @@
               <item name="wPage" type="b2602c69:ProjectViewProjectNode" />
               <item name="wPage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="wPage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wPage" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +119,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/wPage_first" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -153,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wPage/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled2/index.html" />
     <list>
@@ -162,8 +147,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -194,17 +179,38 @@
       <option name="project" value="LOCAL" />
       <updated>1531234233898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ready">
+      <created>1531257212822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531257212822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ready">
+      <created>1531257272007</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531257272007</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ready">
+      <created>1531257685586</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531257685586</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44423000" />
+    <option name="totallyTimeSpent" value="46851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="341" y="292" width="1048" height="535" extended-state="0" />
+    <frame x="352" y="197" width="1048" height="535" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17635658" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17635658" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -213,7 +219,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17814727" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17814727" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11070686" />
@@ -236,7 +242,8 @@
     <MESSAGE value="new page 1" />
     <MESSAGE value="new pos" />
     <MESSAGE value="new img" />
-    <option name="LAST_COMMIT_MESSAGE" value="new img" />
+    <MESSAGE value="ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -315,17 +322,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ыенду.css" />
     <entry file="file://$USER_HOME$/MDB-Gulp-Free/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="130" column="1" lean-forward="true" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="560" column="14" lean-forward="true" selection-start-line="560" selection-start-column="14" selection-end-line="560" selection-end-column="14" />
+        <state relative-caret-position="2583">
+          <caret line="181" column="31" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
         </state>
       </provider>
     </entry>
