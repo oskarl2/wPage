@@ -1,23 +1,25 @@
 'use strict';
-let submit = document.querySelector('#a'),
-    modal = document.querySelector('.modal');
+let modal = document.querySelector('.modal'),
+    modalBtn = document.querySelector('#modalBtn'),
+    gellary = document.querySelector('.art-photo');
 
+//events
 window.addEventListener('load', modalWin);
+modalBtn.addEventListener('click', closeModal);
 
+// show modal after page loading
 function modalWin() {
     setTimeout(showModal, 2000);
 }
 
-submit.style.height = 20 + 'px';
-
-submit.addEventListener('click', showModal);
-
+//no scroll bar
 function noScroll(e) {
-    if (e.keyCode === 40 || e.keyCode === 38 || e.button === 1 || e.type === 'wheel' ) {
+    if (e.keyCode === 40 || e.keyCode === 38 || e.keyCode === 33 || e.keyCode === 34 || e.button === 1 || e.type === 'wheel' ) {
         e.preventDefault();
     }
 }
 
+//show modal window
 function showModal() {
     modal.style.transition = '2s';
     modal.style.opacity = '1';
@@ -29,8 +31,9 @@ function showModal() {
     textInnerModal();
 }
 
+//close modal window
 function closeModal(e) {
-        if (e.keyCode === 27) {
+        if (e.keyCode === 27 || e.type === 'click') {
             modal.style.transition = '';
             modal.style.opacity = '0';
             document.removeEventListener('mousedown', noScroll);
@@ -41,15 +44,31 @@ function closeModal(e) {
         }
 }
 
+//creating text in the modal window
 function textInnerModal() {
     let modalContent = document.querySelector('.modal-content');
     let p = document.createElement("p");
-    p.style.fontSize = '1vw';
+    p.classList.add('modal-descr');
     p.innerHTML = 'или кнопку "Назад" для скрытия модального окна';
     modalContent.appendChild(p);
     let newP = p.cloneNode(true);
     newP.innerHTML = 'Нажми ESC на клавиатуре';
     modalContent.insertBefore(newP, modalContent.children[1]);
+}
 
 
+let images = ['1.jpg', 'moraine3.jpg', 'gandex.jpg'],
+    currentImage = 0;
+
+setInterval(loop, 3000);
+
+gellary.src = `./img/${images[currentImage]}`;
+
+function loop() {
+   if (currentImage < images.length - 1) {
+       currentImage++;
+   } else {
+       currentImage = 0;
+   }
+   gellary.src = `./img/${images[currentImage]}`;
 }
