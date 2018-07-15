@@ -14,7 +14,7 @@ function modalWin() {
 
 //no scroll bar
 function noScroll(e) {
-    if (e.keyCode === 40 || e.keyCode === 38 || e.keyCode === 33 || e.keyCode === 34 || e.button === 1 || e.type === 'wheel' ) {
+    if (e.keyCode === 40 || e.keyCode === 38 || e.keyCode === 33 || e.keyCode === 34 || e.button === 1 || e.type === 'wheel' || e.type === 'touch' ) {
         e.preventDefault();
     }
 }
@@ -27,6 +27,7 @@ function showModal() {
     document.addEventListener('wheel', noScroll);
     document.addEventListener('keydown', noScroll);
     document.addEventListener('keyup', closeModal);
+    document.addEventListener('touchmove', noScroll);
     modal.classList.remove('hidden');
     textInnerModal();
 }
