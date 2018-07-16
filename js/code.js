@@ -1,7 +1,7 @@
 'use strict';
 let modal = document.querySelector('.modal'),
     modalBtn = document.querySelector('#modalBtn'),
-    gellary = document.querySelector('.art-photo');
+    gallery = document.querySelector('.art-photo');
 
 //events
 window.addEventListener('load', modalWin);
@@ -12,9 +12,10 @@ function modalWin() {
     setTimeout(showModal, 2000);
 }
 
-//no scroll bar
+//no scroll bar without overflow:hidden;
 function noScroll(e) {
-    if (e.keyCode === 40 || e.keyCode === 38 || e.keyCode === 33 || e.keyCode === 34 || e.button === 1 || e.type === 'wheel' || e.type === 'touch' ) {
+    if (e.keyCode === 40 || e.keyCode === 38 || e.keyCode === 33 ||
+        e.keyCode === 34 || e.button === 1 || e.type === 'wheel' || e.type === 'touchmove' ) {
         e.preventDefault();
     }
 }
@@ -57,19 +58,22 @@ function textInnerModal() {
     modalContent.insertBefore(newP, modalContent.children[1]);
 }
 
-
+//gallery items
 let images = ['1.jpg', 'moraine3.jpg', 'gandex.jpg'],
     currentImage = 0;
 
+//change image in 3s
 setInterval(loop, 3000);
 
-gellary.src = `./img/${images[currentImage]}`;
+//image on start
+gallery.src = `./img/${images[currentImage]}`;
 
+//change images
 function loop() {
    if (currentImage < images.length - 1) {
        currentImage++;
    } else {
        currentImage = 0;
    }
-   gellary.src = `./img/${images[currentImage]}`;
+   gallery.src = `./img/${images[currentImage]}`;
 }
