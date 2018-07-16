@@ -603,13 +603,35 @@ a {
     position: relative;
     z-index: 105;
     width: max-content;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 20px 20px 10px;
+    border-radius: 10px 10px 0 0;
 }
 
-.modal-content p {
+.modal-descr {
+    font-family: "Cabin", serif;
+    font-size: 18px;
+    text-align: center;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+#modalBtn {
+    width: 100%;
+    padding: 10px 0;
+    background: #007aff;
+    color: #fafafa;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 0 0 10px 10px;
+}
+
+#modalBtn:hover {
+    background: #0062ff;
+}
+
+#modalBtn:active {
+    background: #007aff;
 }
 
 .hidden {
