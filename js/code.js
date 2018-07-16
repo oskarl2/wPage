@@ -14,18 +14,9 @@ function modalWin() {
 
 //no scroll bar without overflow:hidden;
 function noScroll(e) {
-    // if (e.keyCode === 40 || e.keyCode === 38 || e.keyCode === 33 ||
-    //     e.keyCode === 34 || e.button === 1 || e.type === 'wheel' || e.type === 'touchstart' || e.type === 'scroll' ) {
-    //     e.preventDefault();
-    // }
-    if (e.type === 'wheel') {
-        alert('1')
-    }
-    if (e.type === 'touchstart') {
-        alert('2')
-    }
-    if (e.type === 'scroll') {
-        alert('3')
+    if (e.keyCode === 40 || e.keyCode === 38 || e.keyCode === 33 ||
+        e.keyCode === 34 || e.button === 1 || e.type === 'wheel' || e.type === 'touchstart') {
+        e.preventDefault();
     }
 }
 
@@ -38,7 +29,7 @@ function showModal() {
     document.addEventListener('keydown', noScroll);
     document.addEventListener('keyup', closeModal);
     window.addEventListener('touchstart', noScroll);
-    window.addEventListener('scroll', noScroll);
+    // window.addEventListener('scroll', noScroll);
     modal.classList.remove('hidden');
     textInnerModal();
 }
